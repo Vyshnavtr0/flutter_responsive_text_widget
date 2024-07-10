@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_text/responsive_text.dart';
+import 'package:flutter_responsive_text_widget/responsive_text.dart';
 
 void main() {
   runApp(const MyApp());
@@ -56,7 +56,7 @@ class _HomeState extends State<Home> {
           SizedBox(
             width: 600,
             child: ResponsiveText(
-              style: TextStyle(color: Colors.black),
+              style: const TextStyle(color: Colors.black),
               minTextSize: 5,
               scale: 0.05,
               maxTextSize: 50,
