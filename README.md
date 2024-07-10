@@ -1,40 +1,24 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# ResponsiveText
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+Flutter widget for responsive text showing, it will automatically adapt to your screen size and it is also fully customizable
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+**Show some ❤️ and star the repo to support the project**
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+![]([https://raw.githubusercontent.com/leisim/auto_size_text/master/.github/art/maxlines.gif](https://github.com/Vyshnavtr0/responsive_text/assets/82934724/c4411fe0-e96d-45b9-b29e-a8c5b51abbb7))
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+`ResponsiveText` behaves exactly like a `Text`. The only difference is that it resizes text to fit within its bounds.
 
 ```dart
-const like = 'sample';
+ ResponsiveText(
+            style: TextStyle(color: Colors.black),
+            minTextSize: 5,
+            scale: 0.05,
+            maxTextSize: 50,
+            text:
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          )
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
-# responsive_text

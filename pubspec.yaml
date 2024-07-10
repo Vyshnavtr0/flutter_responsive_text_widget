@@ -2,7 +2,7 @@ name: responsive_text
 description: Flutter widget for responsive text showing , it will automatically adapt with your screen size and it also fully customizable
 
 version: 0.0.1
-homepage:
+homepage: https://github.com/Vyshnavtr0/responsive_text.git
 environment:
   sdk: ">=3.1.3 <4.0.0"
   flutter: ">=1.17.0"
